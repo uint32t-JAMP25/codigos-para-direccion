@@ -23,7 +23,7 @@ uint32_t ultimoEnvio1 = 0;
 
 // --- Trama 2 (mailbox 1) ---
 #define TX2_STD_ID   0x280UL          // ID estandar (11 bit)
-uint8_t tx2Data[8] = {0x00, 0x00, 0xE0, 0x2E, 0x00, 0x00, 0x00, 0x00};
+uint8_t tx2Data[8] = {0x00, 0x00, 0xE0, 0x2E, 0x00, 0x00, 0x00, 0x00};//<-- Aquí cambie de 1000 a 3000 rpm
 const uint8_t tx2Len = 8;
 const uint32_t TX2_PERIOD_MS = 50;    // periodo de envio
 uint32_t ultimoEnvio2 = 0;
